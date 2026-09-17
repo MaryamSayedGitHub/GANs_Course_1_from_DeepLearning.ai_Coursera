@@ -1,0 +1,26 @@
+[project]
+name = "gans-course-1-from-deeplearning-ai-coursera"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Maryam Sayed", email = "maryamsayed207@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+     "legacy-cgi>=2.6.4",
+    "matplotlib>=3.7.0",
+    "numpy>=1.24.0",
+    "opendatasets>=0.1.22",
+    "scipy>=1.10.0",
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "tqdm>=4.65.0",
+]
+
+[project.scripts]
+gans-course-1-from-deeplearning-ai-coursera = "gans_course_1_from_deeplearning_ai_coursera:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
